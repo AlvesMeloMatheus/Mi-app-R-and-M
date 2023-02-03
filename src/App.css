@@ -1,38 +1,57 @@
-.App {
+/*body{
+}*/
+
+.App{
+  Display: grid;
+  Grid-template-columns: repeat(auto-fill,1500px);
+}
+
+.Titulo {
+  
+  text-align: center;
+  
+  color: rgb(251, 251, 251);
+
+  margin-left: 30.5rem;
+  margin-right: 30.5rem;
+  
+  /*----otra manera
+  background-image: url("https://media.tenor.com/-aAhEh6khUUAAAAC/m4g1sh-retrowave.gif");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: 100% 20%;
+  ---------*/
+
+
+    background-image: url('https://media.tenor.com/-aAhEh6khUUAAAAC/m4g1sh-retrowave.gif');
+
+    -moz-background-size: 100% 100%; /*Firefox 3.6*/
+
+    -o-background-size: 100% 100%; /*opera*/
+
+    -webkit-background-size: 100% 100%; /*Safari*/
+
+    background-size: 100% 100%; /*estandar css3*/
+
+    -moz-border-image: url('https://media.tenor.com/-aAhEh6khUUAAAAC/m4g1sh-retrowave.gif') 0; /*Firefox 3.5*/
+    
+}
+
+#Search{
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.List{
+  text-align: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#Rick{
+  color: rgb(249, 172, 40);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+#SearchBar{
+  text-align: center;
 }
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
