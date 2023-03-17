@@ -1,0 +1,36 @@
+.About{
+    border: 1px solid black;
+    border-radius: 1rem;
+    
+    height: 6.3rem;
+
+    margin-top: 1rem;
+    margin-left: 30.5rem;
+    margin-right: 30.5rem;
+
+    text-align: center;
+
+    background-color: white;
+}
+
+#Yo{
+    margin-top: 1px;
+    margin-bottom: 1px;
+
+    animation-name: text-animation;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes text-animation {
+    0% {color: rgb(242, 21, 21);} 
+   25% {color: rgb(128, 250, 7);} 
+   50% {color: rgb(199, 237, 63);} 
+   75% {color: rgb(26, 6, 244);} 
+  100% {color: rgb(238, 23, 198);}  
+}
+
+#Cohorte{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}

@@ -1,0 +1,101 @@
+
+.BoxCharacter{
+    border: 3px solid black;
+    border-radius: 7rem;
+
+    line-height: 0.25em;
+    
+    margin-top: 2rem;
+    margin-right: 1rem;
+    margin-left: 1.5rem;
+    margin-bottom: 2rem;
+    
+    animation-name: animation;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes animation{
+    /*(num, num, num, opacity)*/
+  0% {background-color: rgba(246, 246, 30, 0.36);} 
+ 25% {background-color: rgb(98, 255, 0, 0.36);} 
+ 50% {background-color: rgb(240, 47, 47, 0.36);} 
+ 75% {background-color: rgba(22, 39, 196, 0.36);} 
+100% {background-color: rgba(248, 46, 171, 0.36);}  
+}
+
+h3{
+    size: 3px;
+}
+
+img{
+    border: 1px solid black;
+    margin-bottom: 1rem;
+    width: 14rem;
+}
+
+#CharacterName{
+    color: black;
+
+    margin-top: 1rem;
+
+    font-size: 1.1rem; /*"font-size:" para seleccionar el tamaño del texto */
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.h2Char{
+    border: 3px solid purple;
+    border-radius: 1rem;
+   
+    padding: 15px;
+   
+    margin-top: 1rem;
+    margin-left: 5rem;
+    margin-right: 6rem;
+    margin-bottom: 1.5rem;
+    
+    background-color: white;
+
+    backdrop-filter: blur(6.2px);
+    -webkit-backdrop-filter: blur(6.2px);
+
+}
+
+.SpecificationBox{
+    
+    text-align: left;
+    /*box*/
+    border: 3px solid purple;
+    border-radius: 1rem;
+    border-width: 3px;
+    
+    padding: 5px;
+    
+    margin-left: 5rem;
+    margin-right: 6rem;
+    margin-bottom: 1rem;
+    
+    color: orangered;
+    background-color: white;
+}
+
+#Delete{
+    color: brown;
+
+    display: flex;
+    justify-content: flex-start;
+    
+    pointer-events: auto;
+    
+    border: 1px black solid;
+    border-radius: 10px;
+}
+
+#Delete:hover{
+    background-image: url("https://media1.giphy.com/media/oe33xf3B50fsc/giphy.gif");
+    cursor: pointer;
+}
